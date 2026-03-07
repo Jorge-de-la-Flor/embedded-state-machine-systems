@@ -1,58 +1,31 @@
 README in [Spanish](README.es.md)
 
-# Embedded-state-machine-systems
+# Embedded State Machines
 
+This repository explores finite-state architectures commonly used in
+embedded and cyber-physical systems.
 
-Los 2 repositorios que te conviene crear
+The implementations demonstrate how deterministic state machines can be
+used to structure system behaviour in robotics and sensor-driven systems.
 
-Te ayudaré a diseñarlos si quieres.
+## Contents
 
-Repo 1 (muy fuerte)
-embedded-state-machine-systems
+- traffic_light_fsm.py
 
-Contenido:
+    State-based controller for a timed traffic signal.
 
-ejemplos de finite state machines
+- robot_navigation_fsm.py
 
-modelado de sistemas embebidos
+    Reactive navigation behaviour with obstacle detection.
 
-simulaciones en Python
+- sensor_monitor_fsm.py
 
-Ejemplo:
+    Sensor threshold monitoring with escalation states.
 
-traffic_light_controller
-sensor_state_machine
-robot_navigation_states
+## Purpose
 
-Esto conecta directamente con:
+These examples illustrate architectural patterns relevant to:
 
-robotics
-
-control systems
-
-embedded design
-
-Repo 2 (también fuerte)
-sensor-noise-modeling
-
-Contenido:
-
-simulación de sensores
-
-ruido gaussiano
-
-filtrado simple
-
-Ejemplo:
-
-imu_noise_simulation
-sensor_fusion_demo
-kalman_filter_intro
-
-Esto conecta con:
-
-probabilistic robotics
-
-perception
-
-estimation
+- embedded systems design
+- robotics behaviour control
+- cyber-physical system modelling
