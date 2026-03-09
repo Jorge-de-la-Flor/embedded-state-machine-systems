@@ -27,3 +27,9 @@ Estos ejemplos ilustran patrones arquitectónicos relevantes para:
 - Diseño de sistemas embebidos
 - Control del comportamiento robótico
 - Modelado de sistemas ciberfísicos
+
+## Motivación
+
+Las arquitecturas de sistemas basadas en estados son un patrón de diseño fundamental en sistemas embebidos y ciberfísicos. Muchos sistemas de control del mundo real deben operar bajo estrictas restricciones de tiempo y lógica determinista, lo que convierte a los modelos de estados finitos en una forma práctica e interpretable de estructurar el comportamiento.
+
+Estas implementaciones exploran cómo se pueden utilizar máquinas de estados simples para organizar la detección, el control y el comportamiento reactivo en entornos robóticos embebidos.

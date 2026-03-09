@@ -29,3 +29,15 @@ These examples illustrate architectural patterns relevant to:
 - embedded systems design
 - robotics behaviour control
 - cyber-physical system modelling
+
+## Motivation
+
+State-based system architectures are a fundamental design pattern in
+embedded and cyber-physical systems. Many real-world control systems
+must operate under strict timing constraints and deterministic logic,
+making finite-state models a practical and interpretable way to
+structure behaviour.
+
+These implementations explore how simple state machines can be used
+to organise sensing, control, and reactive behaviour in embedded
+robotics environments.
